@@ -59,6 +59,27 @@ namespace OrderTracker.Tests
       //Assert
       Assert.AreEqual(1, result);
     }
+
+        public void Find_ReturnsCorrectOrder_Order()
+    {
+      //Arrange
+      string orderTitle1 = "tacos";
+      string orderDescription1 = "all the tacos";
+      int orderPrice1 = 2;
+      string orderDate1 = "7.25.22";
+      string orderTitle2 = "ice cream";
+      string orderDescription2 = "rocky road";
+      int orderPrice2 = 4;
+      string orderDate2 = "7.25.22";
+      Order newOrder1 = new Order(orderTitle1, orderDescription1, orderPrice1, orderDate1);
+      Order newOrder2 = new Order(orderTitle2, orderDescription2, orderPrice2, orderDate2);
+
+      //Act
+      Order result = Order.Find(2);
+
+      //Assert
+      Assert.AreEqual(newOrder2, result);
+    }
     
   }
 }
