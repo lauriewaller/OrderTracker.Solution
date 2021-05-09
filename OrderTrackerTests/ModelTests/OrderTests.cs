@@ -15,7 +15,7 @@ namespace OrderTracker.Tests
 
     [TestMethod]
     public void OrderConstructor_CreatesInstanceOfOrder_Order()
-    { 
+    {
       Order newOrder = new Order("title", "description", 2, "date");
       Assert.AreEqual(typeof(Order), newOrder.GetType());
     }
@@ -43,7 +43,7 @@ namespace OrderTracker.Tests
       CollectionAssert.AreEqual(newList, result);
     }
 
-        [TestMethod]
+    [TestMethod]
     public void GetId_OrdersInstantiateWithAnIdAndGetterReturns_Int()
     {
       //Arrange
@@ -60,7 +60,7 @@ namespace OrderTracker.Tests
       Assert.AreEqual(1, result);
     }
 
-        public void Find_ReturnsCorrectOrder_Order()
+    public void Find_ReturnsCorrectOrder_Order()
     {
       //Arrange
       string orderTitle1 = "tacos";
@@ -80,6 +80,6 @@ namespace OrderTracker.Tests
       //Assert
       Assert.AreEqual(newOrder2, result);
     }
-    
+
   }
 }
