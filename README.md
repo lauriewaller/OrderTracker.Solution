@@ -31,7 +31,7 @@ This application allows the user to track vendors that purchase items from them.
 
 ## Known Bugs
 
-* Does not handle a string.
+* No known errors
 
 ## License
 
