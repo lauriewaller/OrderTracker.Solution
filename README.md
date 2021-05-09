@@ -11,6 +11,7 @@
 * ASP.NET Razor
 * .NET 5
 * CSS
+* HTML5
 
 ## Description
 This application allows the user to track vendors that purchase items from them. It also allows the user to track each order for the user. 
