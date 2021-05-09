@@ -1,3 +1,30 @@
+/* body {
+  padding-left: 30px;
+} */
+
 h1 {
   padding: 30px;
+}
+
+h3 {
+  padding-left: 30px;
+  padding-bottom: 10px;
+}
+
+p {
+  padding-left: 30px;
+  padding-bottom: 10px;
+}
+
+label {
+  padding-left: 30px;
+  padding-bottom: 10px;
+}
+
+ul {
+  padding-left: 30px;
+}
+
+li {
+  font-size: 20px;
 }
