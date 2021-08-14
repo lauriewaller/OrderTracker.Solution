@@ -1,6 +1,6 @@
 # Order Tracker Application
 
-#### An application for a user to track vendor orders
+#### An application that allows a user to track vendor orders
 
 #### By **Laurie Waller**
 
